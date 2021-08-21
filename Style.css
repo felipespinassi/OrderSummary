@@ -1,0 +1,117 @@
+body{
+    background-color:#e1eafe;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/pattern-background-desktop.svg) ;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.card{
+    
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 2rem;
+    
+}
+
+.card__picture{
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+
+    
+}
+
+.card__content{
+    padding: 2rem  3rem 0 3rem;
+}
+
+.card__content__info__title{
+    font-family: 'Red Hat Display',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.card__content__info__description{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    padding:0 1rem 2rem 1rem;
+    line-height: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.card__plan{
+    background-color:hsl(225, 100%, 98%); ;
+    border-radius: 15px;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.card__content__plan__picture{
+    flex-grow: 1;
+}
+
+.card__content__plan__description{
+    flex-grow: 2;
+    text-align: left;
+}
+
+.card__content__plan__description__title{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+.card__content__plan__description__cost{
+    color:hsl(224, 23%, 55%) ;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card__content__plan__change{
+    color: hsl(224, 23%, 55%);
+    text-decoration: underline;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.card__content__payment{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline-block;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1.1rem 0;
+    margin: 2rem 0;
+    border-radius: 0.7rem;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    border: 1px solid;
+    box-shadow: 0 15px 18px hsl(245deg 75% 92%);
+}
+
+.card__content__payment:hover{
+    color: hsl(245, 75%, 52%);
+    background-color: white;
+}
+
+.card__content__cancel{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline-block;  
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
