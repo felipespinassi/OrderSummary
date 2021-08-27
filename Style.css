@@ -98,7 +98,7 @@ body{
     border-radius: 0.7rem;
     color: white;
     font-weight: bold;
-    transition: 0.5s;
+    transition: 1s;
     border: 1px solid;
     box-shadow: 0 15px 18px hsl(245deg 75% 92%);
 }
